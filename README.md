@@ -84,7 +84,7 @@ terraform apply -auto-approve
 ```
 
 📸 **Screenshots**
-- <img width="665" height="123" alt="Image" src="https://github.com/user-attachments/assets/83b805d6-8c3f-45fb-9564-da2c686f3467" />  
+- <img width="583" height="110" alt="Image" src="https://github.com/user-attachments/assets/06000868-4725-4198-8e80-d83fe59026b7" />
 - <img width="1920" height="1019" alt="Image" src="https://github.com/user-attachments/assets/2c45f3ce-eaee-4edb-aa8f-ea38e20288c8" />  
 
 ---

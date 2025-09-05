@@ -96,7 +96,7 @@ This allows safe collaboration with teammates:
 - **S3** stores the state file.
 - **DynamoDB** ensures state locking (only one `terraform apply` at a time).
 
-📸 **Screenshots to include here:**
+📸 **Screenshots**
 - <img width="1129" height="436" alt="Image" src="https://github.com/user-attachments/assets/9134bcd1-9264-4732-9830-e3cb8860e7f2" />
 
 ---
@@ -114,7 +114,7 @@ terraform destroy -var-file="terraform.tfvars" -auto-approve
 
 This leaves the EC2 instance (and dependencies) as **orphan resources** in AWS.
 
-📸 **Screenshots to include here:**
+📸 **Screenshots**
 - <img width="499" height="90" alt="Image" src="https://github.com/user-attachments/assets/e69edb2c-5476-4f83-86b3-bbd29c3b5f9d" />
 - <img width="881" height="240" alt="Image" src="https://github.com/user-attachments/assets/dbda3c83-e0a9-42a0-8f47-307ab345cdb6" />
 

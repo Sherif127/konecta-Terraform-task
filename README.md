@@ -14,23 +14,32 @@ Before running this project, ensure you have:
 ## 📂 Project Structure
 
 ```bash
-.:
-arch1  arch2  README.md
 
-./arch1:
-backend.tf  main.tf  outputs.tf  terraform.tfvars  variables.tf
-
-./arch2:
-backend.tf  main.tf  modules  outputs.tf  terraform.tfvars  variables.tf
-
-./arch2/modules:
-ec2_nginx  network
-
-./arch2/modules/ec2_nginx:
-main.tf  outputs.tf  variables.tf
-
-./arch2/modules/network:
-main.tf  outputs.tf  variables.tf
+├── arch1
+│   ├── backend.tf
+│   ├── main.tf
+│   ├── outputs.tf
+│   ├── terraform.tfvars
+│   └── variables.tf
+│
+├── arch2
+│   ├── backend.tf
+│   ├── main.tf
+│   ├── outputs.tf
+│   ├── terraform.tfvars
+│   ├── variables.tf
+│   └── modules
+│       ├── ec2_nginx
+│       │   ├── main.tf
+│       │   ├── outputs.tf
+│       │   └── variables.tf
+│       │
+│       └── network
+│           ├── main.tf
+│           ├── outputs.tf
+│           └── variables.tf
+│
+└── README.md
 ```
 ---
 
